@@ -29,10 +29,10 @@ jobs:
         run: |
           npm i
           npm run build --if-present
-          cp ./public/CNAME ./dist/
+          cp ./public/CNAME ./build/
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v2.10.1
         env:
           PERSONAL_TOKEN: ${{ secrets.GITHUB_ACTION }}
           PUBLISH_BRANCH: gh-pages
-          PUBLISH_DIR: ./dist
+          PUBLISH_DIR: ./build
