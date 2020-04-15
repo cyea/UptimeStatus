@@ -2,7 +2,7 @@
 window.Config = {
 
   // 站点名
-  SiteName: 'Uptime Status',
+  SiteName: '站点运行状态',
 
   // 站点链接
   SiteUrl: '/',
@@ -25,7 +25,7 @@ window.Config = {
   Navi: [
     {
       text: 'Homepage',
-      url: 'https://status.org.cn/'
+      url: 'https://chenyeah.com'
     },
     {
       text: 'GitHub',
